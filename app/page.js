@@ -35,8 +35,7 @@ export default function Home() {
         github="https://github.com/gkontevas"
         linkedin="https://www.linkedin.com/in/dimos-gkontevas-bb87a22b3/"
         phone="6945004617"
-        email="dimosgkontevas1
-        @gmail.com"
+        email="dimosgkontevas1@gmail.com"
         instagram="gkontevas_"
       />
       </div>
