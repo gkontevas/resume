@@ -19,7 +19,7 @@ export default function ContactSection({ github, linkedin, phone, email }) {
             { icon: Github, text: 'GitHub', link: github },
             { icon: Linkedin, text: 'LinkedIn', link: linkedin },
             { icon: Phone, text: phone },
-            { icon: Mail, text: 'dimosgkontevas1', },
+            { icon: Mail, text: 'dimosgkontevas1@gmail.com', },
             { icon: Instagram, text: 'gkontevas_' },
             { icon: Facebook, text: 'Dimos Gkontevas' }
           ].map((item, index) => (
