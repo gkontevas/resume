@@ -8,7 +8,7 @@ import { motion } from 'framer-motion';
 
 const HeroSection = () => {
   return (
-    <section className='lg:py-16'>
+    <section className='lg:py-14'>
     <div className='grid grid-cols-1 sm:grid-cols-12'>
     <motion.div 
      initial={{opacity: 0, scale: 0.5 }}
@@ -46,7 +46,7 @@ const HeroSection = () => {
    animate={{opacity: 1, scale: 1}} 
    transition={{duration: 0.4}}
    className='col-span-4 place-self-center mt-4 lg:mt-0 '>
-    <div className='rounded-full bg-gradient-to-t from-[#3c339a] via-[#8a00c4] to-[#3c339a] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative'>
+    <div className='rounded-full bg-gradient-to-t from-[#3c339a] via-[#8a00c4] to-[#3c339a] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] sm:h-[200] sm:w-[200] relative'>
      <Image
     src="/images/hero-image.png"
     alt="hero image"

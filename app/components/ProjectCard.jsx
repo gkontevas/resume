@@ -6,7 +6,7 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
   return (
     <div >
       <div
-       className="h-52 md:h-72 rounded-t-xl relative group overflow-hidden"
+       className="h-44 rounded-t-xl relative group overflow-hidden"
        style={{
         backgroundImage: `url(${imgUrl})`,
         backgroundSize: "contain",
