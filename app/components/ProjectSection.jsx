@@ -71,7 +71,7 @@ const ProjectSection = () => {
    </div>
    <ul ref={ref} className='grid md:grid-cols-4 gap-8 md:gap-12'>{filteredProjects.map((project, index) => 
    <motion.li variants={cardVariants} initial="initial" animate={isInView  ? "animate" :"initial"}
-   transition={{duration: 1, delay: index * 0.4}}
+   transition={{duration: 1, delay: index * 0.2}}
    key={index}
    >
     <ProjectCard
