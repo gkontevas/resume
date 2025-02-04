@@ -40,6 +40,15 @@ const projectsData  = [
         tag: ["All", "Python"],
         gitUrl: "https://github.com/gkontevas/LovePython",
         previewUrl: "https://media.tenor.com/Z4H2w7dmSGgAAAAM/error-april-fool.gif",
+    },
+    {
+        id: 5,
+        title: "Nasa API Project",
+        description: "An API using JS, Jquery and Boostrap for NASA Picture of the Day",
+        image: "/images/projects/5.png",
+        tag: ["All", "JS"],
+        gitUrl: "https://github.com/gkontevas/NASA-API",
+        previewUrl: "https://media.tenor.com/Z4H2w7dmSGgAAAAM/error-april-fool.gif",
     }
 ]
 const ProjectSection = () => {
@@ -69,7 +78,7 @@ const ProjectSection = () => {
         <ProjectTag onClick={handleTabChange} name="Python" isSelected={tag === "Python"} />
         <ProjectTag onClick={handleTabChange} name="JS" isSelected={tag === "JS"} />
    </div>
-   <ul ref={ref} className='grid md:grid-cols-4 gap-8 md:gap-12'>{filteredProjects.map((project, index) => 
+   <ul ref={ref} className='grid md:grid-cols-3 gap-8 md:gap-12'>{filteredProjects.map((project, index) => 
    <motion.li variants={cardVariants} initial="initial" animate={isInView  ? "animate" :"initial"}
    transition={{duration: 1, delay: index * 0.2}}
    key={index}
