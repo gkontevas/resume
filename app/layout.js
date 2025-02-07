@@ -1,5 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { GridBackgroundDemo } from "./components/GridBackgroundDemo";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -19,11 +20,16 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+      <body className="relative min-h-screen bg-background text-foreground">
+        {/* Background Component */}
+        <GridBackgroundDemo />
+
+        {/* Main Content */}
+        <div className="relative z-10 w-full min-h-screen">{children}</div>
       </body>
     </html>
   );
 }
+
+
+

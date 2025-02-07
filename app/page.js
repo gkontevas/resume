@@ -7,6 +7,7 @@ import ProjectSection from "./components/ProjectSection";
 import Footer from "./components/Footer";
 import ContactInfoCard from "./components/ContactInfoCard";
 import Achievements from "./components/Achievements";
+import { GridBackgroundDemo } from "./components/GridBackgroundDemo";
 
 export default function Home() {
   const myContactInfo = {
@@ -20,7 +21,7 @@ export default function Home() {
   
   return (
     
-      <main className="flex min-h-screen flex-col bg-[#121212]">
+      <main className="flex min-h-screen flex-col">
         <Navbar />
         <div className="container mt-12 mx-auto px-12 py-14">
         <HeroSection />
