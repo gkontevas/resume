@@ -3,12 +3,12 @@ export const TAB_DATA = [
       title: "Skills",
       id: "skills",
       content : (
-        <ul className='list-disc pl-2 text-xl'>
-          <li>- React</li>
-          <li>- Next.js</li>
-          <li>- Python</li>
-          <li>- MongoDB</li>
-          <li>- Javascript</li>
+        <ul className='list-disc text-xl pl-2'>
+          <li>• React</li>
+          <li> • Next.js</li>
+          <li> • Python</li>
+          <li> • MongoDB</li>
+          <li> • Javascript</li>
         </ul>
       )
     },
@@ -17,8 +17,8 @@ export const TAB_DATA = [
       id: "education",
       content : (
         <ul className='list-disc pl-2 text-xl'>
-          <li>- On-going Studies at IEK EUROPROODOS.</li>
-          <li>- On-going workshops, seminars and online courses.</li>
+          <li> • On-going Studies at IEK EUROPROODOS.</li>
+          <li> • On-going workshops, seminars and online courses.</li>
         </ul>
       )
     },
@@ -27,8 +27,8 @@ export const TAB_DATA = [
       id: "Certificates",
       content : (
         <ul className='list-disc pl-2 text-xl'>
-          <li>- E.C.D.L. Certificate</li>
-          <li>- Senior High School Lykeio Lehaiou Certificate</li>
+          <li> • E.C.D.L. Certificate</li>
+          <li> • Senior High School Lykeio Lehaiou Certificate</li>
 
         </ul>
       )

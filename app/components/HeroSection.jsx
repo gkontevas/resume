@@ -46,13 +46,13 @@ const HeroSection = () => {
    animate={{opacity: 1, scale: 1}} 
    transition={{duration: 0.4}}
    className='col-span-4 place-self-center mt-4 lg:mt-0 '>
-    <div className='rounded-full bg-gradient-to-t from-[#3c339a] via-[#8a00c4] to-[#3c339a] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] sm:h-[200] sm:w-[200] relative'>
+    <div className='rounded-full bg-gradient-to-t from-[#3c339a] via-[#8a00c4] to-[#3c339a] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] sm:h-[200] sm:w-[200] relative overflow-hidden'>
      <Image
     src="/images/hero-image.png"
     alt="hero image"
-    className='absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
-    width={280}
-    height={280}
+    className='absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 '
+    width={500}
+    height={500}
     />
     </div>
    </motion.div>

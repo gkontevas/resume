@@ -16,6 +16,10 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
+      listStyleType: {
+        square: 'square',
+        roman: 'upper-roman',
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
