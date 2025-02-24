@@ -8,6 +8,8 @@ import Footer from "./components/Footer";
 import ContactInfoCard from "./components/ContactInfoCard";
 import Achievements from "./components/Achievements";
 import { GridBackgroundDemo } from "./components/GridBackgroundDemo";
+import "./globals.css";
+
 
 export default function Home() {
   const myContactInfo = {
