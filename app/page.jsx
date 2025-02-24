@@ -12,14 +12,6 @@ import "./globals.css";
 
 
 export default function Home() {
-  const myContactInfo = {
-    name: "Dimos Gkontevas",
-    phone: "(+30) 6945004617",
-    github: "github.com/gkontevas",
-    linkedin: "www.linkedin.com/in/dimos-gkontevas-bb87a22b3/",
-    
-  }
-
   
   return (
     
