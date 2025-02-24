@@ -50,6 +50,15 @@ const projectsData = [
     gitUrl: "https://github.com/gkontevas/NASA-API",
     previewUrl: "https://media.tenor.com/Z4H2w7dmSGgAAAAM/error-april-fool.gif",
   },
+  {
+    id: 6,
+    title: "Weather API",
+    description: "A weather API using OpenWeatherApi",
+    image: "/images/projects/6.png",
+    tag: ["All", "JS"],
+    gitUrl: "https://github.com/gkontevas/Weather-App",
+    previewUrl: "https://media.tenor.com/Z4H2w7dmSGgAAAAM/error-april-fool.gif",
+  },
 ]
 const ProjectSection = () => {
   const ref = useRef(null)
